@@ -1,0 +1,11 @@
+.banner-image {
+    height: 80vh;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 0;
+}
