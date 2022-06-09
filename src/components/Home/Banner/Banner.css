@@ -9,3 +9,29 @@
     background-attachment: fixed;
     z-index: 0;
 }
+
+.banner-btn {
+    background: transparent;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background: blue;
+    position: relative;
+    border: none;
+    z-index: 1;
+}
+
+.banner-btn::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #2a8df0;
+    border-radius: 3px;
+    z-index: -1;
+    transition: .7s;
+}
+.banner-btn:hover::before {
+    width: 100%;
+}

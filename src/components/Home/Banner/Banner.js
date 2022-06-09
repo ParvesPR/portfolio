@@ -1,6 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import image from '../../../assets/images/banner.webp';
 import '../Banner/Banner.css';
+import { BsArrowRightCircle } from 'react-icons/bs/index';
+
 
 const Banner = () => {
     return (
@@ -13,6 +16,9 @@ const Banner = () => {
                         <p className='btn btn-outline-secondary text-white'>Hi There !</p>
                         <h1 className='text-success'><span className='text-white fw-bold'>I'm Parves.</span> I'm a web developer</h1>
                     </div>
+                   <div className='my-3'>
+                       <button className='btn banner-btn text-uppercase text-white fw-bold'>Hire me <BsArrowRightCircle></BsArrowRightCircle> </button>
+                   </div>
                 </div>
             </div>
         </section>
