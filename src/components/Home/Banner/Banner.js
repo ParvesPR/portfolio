@@ -16,9 +16,9 @@ const Banner = () => {
                         <p className='btn btn-outline-secondary text-white'>Hi There !</p>
                         <h1 className='text-success'><span className='text-white fw-bold'>I'm Parves.</span> I'm a web developer</h1>
                     </div>
-                   <div className='my-3'>
-                       <button className='btn banner-btn text-uppercase text-white fw-bold'>Hire me <BsArrowRightCircle></BsArrowRightCircle> </button>
-                   </div>
+                    <div className='my-3'>
+                        <button className='btn banner-btn text-uppercase text-white fw-bold'><span>Hire me <BsArrowRightCircle></BsArrowRightCircle></span> </button>
+                    </div>
                 </div>
             </div>
         </section>

@@ -18,6 +18,7 @@
     position: relative;
     border: none;
     z-index: 1;
+    transition: .5s;
 }
 
 .banner-btn::before {
@@ -34,4 +35,7 @@
 }
 .banner-btn:hover::before {
     width: 100%;
+}
+.banner-btn:hover{
+    letter-spacing: 5px;
 }
