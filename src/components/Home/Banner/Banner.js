@@ -17,7 +17,7 @@ const Banner = () => {
                         <h1 className='text-success'><span className='text-white fw-bold'>I'm Parves.</span> I'm a web developer</h1>
                     </div>
                     <div className='my-3'>
-                        <button className='btn banner-btn text-uppercase text-white fw-bold'><span>Hire me <BsArrowRightCircle></BsArrowRightCircle></span> </button>
+                        <button className='btn banner-btn text-uppercase fw-bold'><a className='text-decoration-none text-white border-0' href='resume.pdf' download>Download Resume <BsArrowRightCircle></BsArrowRightCircle></a> </button>
                     </div>
                 </div>
             </div>

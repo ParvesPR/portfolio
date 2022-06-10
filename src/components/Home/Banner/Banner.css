@@ -14,6 +14,8 @@
     background: transparent;
     padding: 12px 30px;
     border-radius: 5px;
+    margin: 0 0;
+    text-decoration: none;
     background: blue;
     position: relative;
     border: none;
@@ -33,9 +35,15 @@
     z-index: -1;
     transition: .7s;
 }
+
 .banner-btn:hover::before {
     width: 100%;
 }
-.banner-btn:hover{
-    letter-spacing: 5px;
+
+.banner-btn:hover {
+    letter-spacing: 3px;
+}
+
+.banner-btn a {
+    font-size: .9rem;
 }

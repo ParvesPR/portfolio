@@ -12,7 +12,7 @@ const Header = () => {
                     <Nav className='ms-auto '>
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/service">Service</Nav.Link>
+                        <Nav.Link as={Link} to="/myservices">Service</Nav.Link>
                         <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
                         <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
