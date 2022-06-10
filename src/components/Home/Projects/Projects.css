@@ -1,7 +1,33 @@
-.project-section{
-    background-image: url('../../../assets/images//bg1.jpg');
+.project-section {
+    background-image: url('../../../assets/images/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+    width: auto;
+}
+.project-bg{
+    background-color: #18A795;
+}
+.project-card{
+    transition: .5s;
+}
+.project-card:hover {
+    transform: translateY(-15px);
+}
+.project-bg2{
+    background-color: #FFE4DD;
+}
+.banner-btn{
+    background-color: #b0aead;
+}
+.project-bg3{
+    background-color: #FEEAD2;
+}
+.lucky-btn{
+    background-color: #fddcb4;
+    color: #000;
+}
+.lucky-btn:hover{
+    color: #fff;
 }
