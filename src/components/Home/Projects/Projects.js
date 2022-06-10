@@ -33,7 +33,7 @@ const Projects = () => {
                                     <p className="card-text text-dark">Used & new cars Warehouse Management.Customers will see many products & can buy any product from there.</p>
                                 </div>
                                 <div className='d-flex justify-content-center'>
-                                    <button className="banner-btn fw-bold my-3 btn btn-secondary">Explore <BsArrowRightCircle></BsArrowRightCircle> </button>
+                                    <button className="banner-btn card-btn fw-bold my-3 btn btn-secondary">Explore <BsArrowRightCircle></BsArrowRightCircle> </button>
                                 </div>
                             </div>
                         </div>

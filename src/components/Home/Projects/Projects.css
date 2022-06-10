@@ -3,7 +3,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
     width: auto;
 }
 .project-bg{
@@ -18,8 +17,9 @@
 .project-bg2{
     background-color: #FFE4DD;
 }
-.banner-btn{
+.card-btn{
     background-color: #b0aead;
+    
 }
 .project-bg3{
     background-color: #FEEAD2;
