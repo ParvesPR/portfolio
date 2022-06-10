@@ -1,3 +1,62 @@
 .service-section {
     background: #2A2C39;
 }
+
+.js-card {
+    background: linear-gradient(#00000085, #00000085), url('../../../assets//images/js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.js-card:hover {
+    background: linear-gradient(#00000090, #00000090), url('../../../assets//images/js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.card-list li {
+    background-color: #00000044;
+}
+
+.react-card {
+    background: linear-gradient(#555555b5, #555555b5), url('../../../assets//images/react.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.react-card:hover {
+    background: linear-gradient(#55555590, #55555590), url('../../../assets//images/react.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.rjs-list li {
+    background-color: #84848444;
+}
+
+.node-card {
+    background: linear-gradient(#00000095, #00000095), url('../../../assets//images/node.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.node-card:hover {
+    background: linear-gradient(#00000099, #00000099), url('../../../assets//images/node.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+}
+.node-list li {
+    background-color: #0909098e;
+}
