@@ -5,6 +5,7 @@ import aparHome from '../../../assets/images/apar-home.png';
 import warehouse from '../../../assets/images/warehouse.png';
 import lucky from '../../../assets/images/lucky.png';
 import { BsArrowRightCircle } from 'react-icons/bs/index';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -21,7 +22,7 @@ const Projects = () => {
                                     <p className="card-text text-light">This is a Auto-mobile parts manufacturer company website.Users have to log in and can order any product</p>
                                 </div>
                                 <div className='d-flex justify-content-center'>
-                                    <button className="banner-btn fw-bold my-3 btn btn-secondary bg-secondary">Explore <BsArrowRightCircle></BsArrowRightCircle> </button>
+                                    <Link className="banner-btn fw-bold my-3 btn btn-secondary bg-secondary" to="/aparParts">Explore <BsArrowRightCircle></BsArrowRightCircle></Link>
                                 </div>
                             </div>
                         </div>

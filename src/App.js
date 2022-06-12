@@ -5,6 +5,7 @@ import MyServices from './components/Home/MyServices/MyServices';
 import Header from './components/Shared/Header/Header';
 import Blog from './components/Blog/Blog';
 import About from './components/About/About';
+import AparDetails from './components/AparDetails/AparDetails';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/myservices' element={MyServices}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/aparParts' element={<AparDetails></AparDetails>}></Route>
       </Routes>
     </div>
   );

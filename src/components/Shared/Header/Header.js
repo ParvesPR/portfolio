@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Navbar className='nav_bar' collapseOnSelect expand="lg" bg="primary" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Parves</Navbar.Brand>
+                <Navbar.Brand href="#home">PARVES</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='ms-auto '>
