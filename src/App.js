@@ -6,6 +6,7 @@ import Header from './components/Shared/Header/Header';
 import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import AparDetails from './components/AparDetails/AparDetails';
+import WarehouseDetails from './components/WarehouseDetails/WarehouseDetails';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/aparParts' element={<AparDetails></AparDetails>}></Route>
+        <Route path='/wareHouse' element={<WarehouseDetails></WarehouseDetails>}></Route>
       </Routes>
     </div>
   );

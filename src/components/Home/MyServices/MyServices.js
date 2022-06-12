@@ -4,7 +4,7 @@ import './MyServices.css';
 
 const MyServices = () => {
     return (
-        <section className='service-section'>
+        <section className='service-section' id='services'>
             <div className='container'>
                 <div className='row'>
                     <h3 className='text-light text-center text-uppercase py-4'>| Services |</h3>

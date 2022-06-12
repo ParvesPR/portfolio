@@ -1,31 +1,27 @@
 import React from 'react';
-import apar1 from '../../assets/images/apar1.png';
-import apar2 from '../../assets/images/apar2.png';
-import apar3 from '../../assets/images/apar3.png';
-import apar4 from '../../assets/images/apar4.png';
-import apar5 from '../../assets/images/apar5.png';
+import warehouse1 from '../../assets/images/warehouse1.png'
+import warehouse2 from '../../assets/images/warehouse2.png'
+import warehouse3 from '../../assets/images/warehouse3.png'
+import warehouse4 from '../../assets/images/warehouse4.png'
 
-const AparDetails = () => {
+const WarehouseDetails = () => {
     return (
         <section className='bg-info'>
-            <h1 className='text-bold text-center py-3 text-light'>Project Details:Apar Parts</h1>
+            <h1 className='text-bold text-center py-3 text-light'>Project Details: Warehouse Management</h1>
 
             <div id="carouselExampleInterval" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src={apar1} class="d-block w-100" alt="..." />
+                        <img src={warehouse1} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src={apar2} class="d-block w-100" alt="..." />
+                        <img src={warehouse2} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src={apar3} class="d-block w-100" alt="..." />
+                        <img src={warehouse3} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src={apar4} class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src={apar5} class="d-block w-100" alt="..." />
+                        <img src={warehouse4} class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -61,9 +57,9 @@ const AparDetails = () => {
                     </div>
                     <div className="col-lg-4">
                         <h3 className='text-bold'>Code Link:</h3>
-                        <button className='btn btn-outline-primary mx-2 text-white text-bold'><a className='text-white text-bold text-decoration-none' target="blank" href="https://github.com/ParvesPR/manufacturer-website-client-side" alt="">Client</a></button>
-                        <button className='btn btn-outline-primary mx-2'><a className='text-white text-bold text-decoration-none' target="blank" href="https://github.com/ParvesPR/-manufacturer-website-server-side-P">Server</a></button>
-                        <button className='btn btn-outline-primary mx-2 text-white text-bold'><a className='text-white text-bold text-decoration-none' target="blank" href="https://manufacturer-36735.web.app/">Live Site</a></button>
+                        <button className='btn btn-outline-primary mx-2 text-white text-bold'><a className='text-white text-bold text-decoration-none' target="blank" href="https://github.com/ParvesPR/warehouse-management-client-side" alt="">Client</a></button>
+                        <button className='btn btn-outline-primary mx-2'><a className='text-white text-bold text-decoration-none' target="blank" href="https://github.com/ParvesPR/warehouse-management-server-side">Server</a></button>
+                        <button className='btn btn-outline-primary mx-2 text-white text-bold'><a className='text-white text-bold text-decoration-none' target="blank" href="https://warehouse-ae59e.web.app/">Live Site</a></button>
                     </div>
                 </div>
             </div>
@@ -71,4 +67,4 @@ const AparDetails = () => {
     );
 };
 
-export default AparDetails;
+export default WarehouseDetails;

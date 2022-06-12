@@ -6,13 +6,13 @@ const Header = () => {
     return (
         <Navbar className='nav_bar' collapseOnSelect expand="lg" bg="primary" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">PARVES</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/home">PARVES</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='ms-auto '>
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/myservices">Service</Nav.Link>
+                        <Nav.Link href="home#services">Service</Nav.Link>
                         <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
                         <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
