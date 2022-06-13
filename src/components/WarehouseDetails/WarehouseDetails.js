@@ -39,13 +39,13 @@ const WarehouseDetails = () => {
                     <div className="col-lg-4 text-dark">
                         <h3 className='text-bold'>Details</h3>
                         <ul>
-                            <li>This is Manufacturer company website.
+                            <li>Used & new cars warehouse management website.
                             </li>
-                            <li>In this website already have an admin. admin can manage product items,users & orders.
+                            <li>In this website user can create an account and manage product items.
                             </li>
-                            <li>Admin also can add a item and delete a item.
+                            <li>User also can add a item and delete a item.
                             </li>
-                            <li>Admin can manage payment method & make a user admin.
+                            <li>User can update an item like: increase/decrease quantity, delete an item, delivered a item.
                             </li>
                             <li>Using mongodb for store data.
                             </li>
@@ -53,7 +53,7 @@ const WarehouseDetails = () => {
                     </div>
                     <div className="col-lg-4">
                         <h3 className='text-bold'>Technology Usage:</h3>
-                        React Js,Node Js,Express Js,Mongo DB,Firebase,React-router,React-firebase-hooks,Tailwind CSS,React Hot Toast
+                        React Js,Node Js,Express Js,Mongo DB,Firebase,React-router,React-firebase-hooks,React Bootstrap,Bootstrap,CSS,React Hot Toast
                     </div>
                     <div className="col-lg-4">
                         <h3 className='text-bold'>Code Link:</h3>

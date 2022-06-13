@@ -8,6 +8,8 @@ import About from './components/About/About';
 import AparDetails from './components/AparDetails/AparDetails';
 import WarehouseDetails from './components/WarehouseDetails/WarehouseDetails';
 import NotFound from './components/NotFound/NotFound';
+import LuckyOneDetails from './components/LuckyOneDetails/LuckyOneDetails';
+import Footer from './components/Shared/Header/Footer/Footer';
 
 function App() {
   return (
@@ -21,8 +23,10 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/aparParts' element={<AparDetails></AparDetails>}></Route>
         <Route path='/wareHouse' element={<WarehouseDetails></WarehouseDetails>}></Route>
+        <Route path='/luckyOne' element={<LuckyOneDetails></LuckyOneDetails>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
